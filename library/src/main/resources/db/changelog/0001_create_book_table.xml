@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+    <changeSet id="sql-create-books-table" author="gl">
+        <sql>
+            CREATE TABLE books (
+            id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+            book_name VARCHAR(200) NOT NULL UNIQUE
+            );
+        </sql>
+    </changeSet>
+</databaseChangeLog>

@@ -3,6 +3,8 @@
 
 # IDEA
 .idea/**
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
 *.iws
 out/
 .idea_modules/
@@ -18,6 +20,7 @@ fabric.properties
 ### Java ###
 # Compiled class file
 *.class
+**/*.class
 
 # Log file
 *.log

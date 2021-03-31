@@ -150,3 +150,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/java,linux,macos,scala,maven,windows,intellij,netbeans,visualstudiocode
+=======
+# Binaries
+**/*.class
